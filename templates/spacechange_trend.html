@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href ="/static/bootstrap.css">
+    <script src="/static/jquery-3.3.1.js"></script>
+    {% for jsfile_name in script_list %}
+    <script src="{{host}}/{{jsfile_name}}.js"></script>
+    {% endfor %}
+</head>
+<body>
+{{ trend_line_lasso }}
+<br>
+{{ trend_line_ridge }}
+<br>
+{{ trend_line_gaussian }}
+</body>
+</html>

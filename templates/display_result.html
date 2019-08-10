@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href ="/static/bootstrap.css">
+    <script src="/static/jquery-3.3.1.js"></script>
+    {% for jsfile_name in script_list %}
+    <script src="{{host}}/{{jsfile_name}}.js"></script>
+    {% endfor %}
+</head>
+<body>
+<div style="margin: 20px 300px">
+    <h3>系统负载快照数据-{{ snap_date }}</h3>
+
+<table class="table table-bordered table-hover table-striped table-condensed">
+<tr>
+    {% for ind in title %}
+    <td>{{ ind }}</td>
+    {% endfor %}
+</tr>
+    {% for item in metric_data %}
+    <tr>
+        <td>{{ item.time }}</td>
+        <td>{{ item.redo_second }}</td>
+        <td>{{ item.logical_second }}</td>
+        <td>{{ item.physical_second }}</td>
+        <td>{{ item.execs_second }}</td>
+        <td>{{ item.trans_second }}</td>
+    </tr>
+    {% endfor %}
+
+</table>
+{{ myechart }}
+<h3>空间使用率快照数据-{{ snap_date }}</h3>
+
+<table class="table table-bordered table-hover table-striped table-condensed">
+    {% for item in space_usage %}
+    <tr>
+        <td>{{ item.tablespace_name }}</td>
+        <td>{{ item.percent }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{{ usage_pie }}
+</div>
+</body>
+</html>

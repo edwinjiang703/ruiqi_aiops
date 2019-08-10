@@ -1,0 +1,168 @@
+[2019-01-10 16:15:56,771: WARNING/MainProcess] /usr/local/lib/python3.6/dist-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+[2019-01-10 16:15:56,786: INFO/MainProcess] Connected to amqp://guest:**@127.0.0.1:5672//
+[2019-01-10 16:15:56,795: INFO/MainProcess] mingle: searching for neighbors
+[2019-01-10 16:15:57,806: INFO/MainProcess] mingle: all alone
+[2019-01-10 16:15:57,817: WARNING/MainProcess] /usr/local/lib/python3.6/dist-packages/celery/fixups/django.py:265: UserWarning: Using settings.DEBUG leads to a memory leak, never use this setting in production environments!
+  warnings.warn('Using settings.DEBUG leads to a memory leak, never '
+[2019-01-10 16:15:57,817: WARNING/MainProcess] celery@ottuneweb ready.
+[2019-01-11 08:49:29,395: ERROR/MainProcess] Received unregistered task of type 'ora_dual.tasks.add'.
+The message has been ignored and discarded.
+
+Did you remember to import the module containing this task?
+Or maybe you are using relative imports?
+Please see http://bit.ly/gLye1c for more information.
+
+The full contents of the message body was:
+{'task': 'ora_dual.tasks.add', 'id': 'eb677848-78de-4d80-bd0a-addf0b982aa5', 'args': (5, 99), 'kwargs': {}, 'retries': 0, 'eta': None, 'expires': None, 'utc': True, 'callbacks': None, 'errbacks': None, 'timelimit': (None, None), 'taskset': None, 'chord': None} (265b)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/celery/worker/consumer.py", line 465, in on_task_received
+    strategies[type_](message, body,
+KeyError: 'ora_dual.tasks.add'
+[2019-01-11 08:50:50,275: ERROR/MainProcess] Received unregistered task of type 'ora_dual.tasks.add'.
+The message has been ignored and discarded.
+
+Did you remember to import the module containing this task?
+Or maybe you are using relative imports?
+Please see http://bit.ly/gLye1c for more information.
+
+The full contents of the message body was:
+{'task': 'ora_dual.tasks.add', 'id': 'b84630eb-2746-47f3-811f-0f9c5be90011', 'args': (5, 99), 'kwargs': {}, 'retries': 0, 'eta': None, 'expires': None, 'utc': True, 'callbacks': None, 'errbacks': None, 'timelimit': (None, None), 'taskset': None, 'chord': None} (265b)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/celery/worker/consumer.py", line 465, in on_task_received
+    strategies[type_](message, body,
+KeyError: 'ora_dual.tasks.add'
+[2019-01-11 08:50:51,819: ERROR/MainProcess] Received unregistered task of type 'ora_dual.tasks.add'.
+The message has been ignored and discarded.
+
+Did you remember to import the module containing this task?
+Or maybe you are using relative imports?
+Please see http://bit.ly/gLye1c for more information.
+
+The full contents of the message body was:
+{'task': 'ora_dual.tasks.add', 'id': 'a90a116b-5c52-46dd-88e4-9c91b2a6d09b', 'args': (5, 99), 'kwargs': {}, 'retries': 0, 'eta': None, 'expires': None, 'utc': True, 'callbacks': None, 'errbacks': None, 'timelimit': (None, None), 'taskset': None, 'chord': None} (265b)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/celery/worker/consumer.py", line 465, in on_task_received
+    strategies[type_](message, body,
+KeyError: 'ora_dual.tasks.add'
+[2019-01-11 08:50:52,221: ERROR/MainProcess] Received unregistered task of type 'ora_dual.tasks.add'.
+The message has been ignored and discarded.
+
+Did you remember to import the module containing this task?
+Or maybe you are using relative imports?
+Please see http://bit.ly/gLye1c for more information.
+
+The full contents of the message body was:
+{'task': 'ora_dual.tasks.add', 'id': '0f54c178-3bd8-49ab-84d4-56078eee852f', 'args': (5, 99), 'kwargs': {}, 'retries': 0, 'eta': None, 'expires': None, 'utc': True, 'callbacks': None, 'errbacks': None, 'timelimit': (None, None), 'taskset': None, 'chord': None} (265b)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/celery/worker/consumer.py", line 465, in on_task_received
+    strategies[type_](message, body,
+KeyError: 'ora_dual.tasks.add'
+[2019-01-11 08:50:52,392: ERROR/MainProcess] Received unregistered task of type 'ora_dual.tasks.add'.
+The message has been ignored and discarded.
+
+Did you remember to import the module containing this task?
+Or maybe you are using relative imports?
+Please see http://bit.ly/gLye1c for more information.
+
+The full contents of the message body was:
+{'task': 'ora_dual.tasks.add', 'id': '41a8c6e7-d941-450f-9bf6-2d9e12210875', 'args': (5, 99), 'kwargs': {}, 'retries': 0, 'eta': None, 'expires': None, 'utc': True, 'callbacks': None, 'errbacks': None, 'timelimit': (None, None), 'taskset': None, 'chord': None} (265b)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/celery/worker/consumer.py", line 465, in on_task_received
+    strategies[type_](message, body,
+KeyError: 'ora_dual.tasks.add'
+[2019-01-11 08:50:52,559: ERROR/MainProcess] Received unregistered task of type 'ora_dual.tasks.add'.
+The message has been ignored and discarded.
+
+Did you remember to import the module containing this task?
+Or maybe you are using relative imports?
+Please see http://bit.ly/gLye1c for more information.
+
+The full contents of the message body was:
+{'task': 'ora_dual.tasks.add', 'id': '99b931eb-b4ef-40cd-b9df-e6416f0bfec3', 'args': (5, 99), 'kwargs': {}, 'retries': 0, 'eta': None, 'expires': None, 'utc': True, 'callbacks': None, 'errbacks': None, 'timelimit': (None, None), 'taskset': None, 'chord': None} (265b)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/celery/worker/consumer.py", line 465, in on_task_received
+    strategies[type_](message, body,
+KeyError: 'ora_dual.tasks.add'
+[2019-01-11 08:50:52,715: ERROR/MainProcess] Received unregistered task of type 'ora_dual.tasks.add'.
+The message has been ignored and discarded.
+
+Did you remember to import the module containing this task?
+Or maybe you are using relative imports?
+Please see http://bit.ly/gLye1c for more information.
+
+The full contents of the message body was:
+{'task': 'ora_dual.tasks.add', 'id': '0a00af4d-3137-45aa-b083-a5161375e9ff', 'args': (5, 99), 'kwargs': {}, 'retries': 0, 'eta': None, 'expires': None, 'utc': True, 'callbacks': None, 'errbacks': None, 'timelimit': (None, None), 'taskset': None, 'chord': None} (265b)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/celery/worker/consumer.py", line 465, in on_task_received
+    strategies[type_](message, body,
+KeyError: 'ora_dual.tasks.add'
+[2019-01-11 08:50:52,883: ERROR/MainProcess] Received unregistered task of type 'ora_dual.tasks.add'.
+The message has been ignored and discarded.
+
+Did you remember to import the module containing this task?
+Or maybe you are using relative imports?
+Please see http://bit.ly/gLye1c for more information.
+
+The full contents of the message body was:
+{'task': 'ora_dual.tasks.add', 'id': '1c752d74-68c8-4c9e-95ad-d1ba5927382a', 'args': (5, 99), 'kwargs': {}, 'retries': 0, 'eta': None, 'expires': None, 'utc': True, 'callbacks': None, 'errbacks': None, 'timelimit': (None, None), 'taskset': None, 'chord': None} (265b)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/celery/worker/consumer.py", line 465, in on_task_received
+    strategies[type_](message, body,
+KeyError: 'ora_dual.tasks.add'
+[2019-01-11 08:50:53,056: ERROR/MainProcess] Received unregistered task of type 'ora_dual.tasks.add'.
+The message has been ignored and discarded.
+
+Did you remember to import the module containing this task?
+Or maybe you are using relative imports?
+Please see http://bit.ly/gLye1c for more information.
+
+The full contents of the message body was:
+{'task': 'ora_dual.tasks.add', 'id': 'b98ca6a9-4042-4de1-b0c3-a72465849a64', 'args': (5, 99), 'kwargs': {}, 'retries': 0, 'eta': None, 'expires': None, 'utc': True, 'callbacks': None, 'errbacks': None, 'timelimit': (None, None), 'taskset': None, 'chord': None} (265b)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/celery/worker/consumer.py", line 465, in on_task_received
+    strategies[type_](message, body,
+KeyError: 'ora_dual.tasks.add'
+[2019-01-11 08:51:11,834: ERROR/MainProcess] Received unregistered task of type 'ora_dual.tasks.add'.
+The message has been ignored and discarded.
+
+Did you remember to import the module containing this task?
+Or maybe you are using relative imports?
+Please see http://bit.ly/gLye1c for more information.
+
+The full contents of the message body was:
+{'task': 'ora_dual.tasks.add', 'id': 'bdd622fc-5566-416d-9423-a93355e65e1b', 'args': (5, 99), 'kwargs': {}, 'retries': 0, 'eta': None, 'expires': None, 'utc': True, 'callbacks': None, 'errbacks': None, 'timelimit': (None, None), 'taskset': None, 'chord': None} (265b)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/celery/worker/consumer.py", line 465, in on_task_received
+    strategies[type_](message, body,
+KeyError: 'ora_dual.tasks.add'
+[2019-01-11 08:51:13,847: ERROR/MainProcess] Received unregistered task of type 'ora_dual.tasks.add'.
+The message has been ignored and discarded.
+
+Did you remember to import the module containing this task?
+Or maybe you are using relative imports?
+Please see http://bit.ly/gLye1c for more information.
+
+The full contents of the message body was:
+{'task': 'ora_dual.tasks.add', 'id': '7f693652-c0a4-41e7-9918-b46a43d566d5', 'args': (5, 99), 'kwargs': {}, 'retries': 0, 'eta': None, 'expires': None, 'utc': True, 'callbacks': None, 'errbacks': None, 'timelimit': (None, None), 'taskset': None, 'chord': None} (265b)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/celery/worker/consumer.py", line 465, in on_task_received
+    strategies[type_](message, body,
+KeyError: 'ora_dual.tasks.add'

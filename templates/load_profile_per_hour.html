@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Load Profile Per Hour</title>
+    <link rel="stylesheet" href ="/static/bootstrap.css">
+</head>
+<body>
+<div style="margin: 20px 300px">
+    <h3>Load Profile Detail Info （Per Hour）</h3>
+<form action="/ora_dual/get_metric_data/" method="post">
+        <input type="submit" value="获取Load数据">
+</form>
+<table class="table table-bordered table-hover table-striped table-condensed"">
+<tr>
+    {% for ind in title %}
+    <td>{{ ind }}</td>
+    {% endfor %}
+</tr>
+    {% for item in load_metric %}
+    <tr>
+        <td>{{ item.id }}</td>
+        <td>{{ item.instance_number }}</td>
+        <td>{{ item.snap_date }}</td>
+        <td>{{ item.time }}</td>
+        <td>{{ item.elapse_min }}</td>
+        <td>{{ item.dbtime_min }}</td>
+        <td>{{ item.redo }}</td>
+        <td>{{ item.redo_second }}</td>
+        <td>{{ item.logical }}</td>
+        <td>{{ item.logical_second }}</td>
+        <td>{{ item.physical }}</td>
+        <td>{{ item.physical_second }}</td>
+        <td>{{ item.execs }}</td>
+        <td>{{ item.execs_second }}</td>
+        <td>{{ item.parse }}</td>
+        <td>{{ item.parse_second }}</td>
+        <td>{{ item.hardware }}</td>
+        <td>{{ item.harware_second }}</td>
+        <td>{{ item.trans }}</td>
+        <td>{{ item.trans_second }}</td>
+    </tr>
+    {% endfor %}
+
+</table>
+</div>
+</body>
+</html>

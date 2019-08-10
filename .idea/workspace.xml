@@ -1,0 +1,1506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e68bfd7-a392-4653-b320-731f2f954ce7" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/oracle_predict$views.coverage" NAME="views Coverage Results" MODIFIED="1564905647003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ora_dual" />
+    <SUITE FILE_PATH="coverage/oracle_predict$test.coverage" NAME="test Coverage Results" MODIFIED="1565407508319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/time_series_detector" />
+    <SUITE FILE_PATH="coverage/oracle_predict$space_predict_122.coverage" NAME="space_predict_122 Coverage Results" MODIFIED="1548824506782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/metric_process" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-313798939">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="1" />
+          <entry key="py" value="22" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="Python" value="22" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="53" />
+          <entry key="py" value="630" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="53" />
+          <entry key="Python" value="630" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="space_predict_122.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/metric_process/space_predict_122.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-938">
+              <caret line="455" column="58" lean-forward="true" selection-start-line="455" selection-start-column="58" selection-end-line="455" selection-end-column="58" />
+              <folding>
+                <element signature="e#147#163#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iops_thu_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ora_dual/iops_thu_data.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="periodic_tasks.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ora_dual/periodic_tasks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ora_dual/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="78" column="12" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spacechange_trend.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/spacechange_trend.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="16" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spacechange_trend.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/node_modules/gentelella/production/spacechange_trend.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="122" column="14" lean-forward="true" selection-start-line="122" selection-start-column="14" selection-end-line="122" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="collect_metric.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ora_dual/collect_metric.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <folding>
+                <element signature="e#144#171#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="collect_io_metric.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ora_dual/collect_io_metric.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ora_dual/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1147">
+              <caret line="540" column="5" lean-forward="true" selection-start-line="540" selection-start-column="5" selection-end-line="540" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/metric_process/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="72" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="72" />
+              <folding>
+                <element signature="e#134#167#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>debug</find>
+      <find>myechart</find>
+      <find>safe</find>
+      <find>static</find>
+      <find>x</find>
+      <find>brand</find>
+      <find>Dropdown</find>
+      <find>login</find>
+      <find>DB</find>
+      <find>template</find>
+      <find>datetime</find>
+      <find>metric_average</find>
+      <find>Average Active Sessions</find>
+      <find>fit_transform</find>
+      <find>process_space_metric_data</find>
+      <find>Fa_kmeans</find>
+      <find>arima</find>
+      <find>get_oracle_metric</find>
+      <find>get_ora_parameter_metadata</find>
+      <find>positive</find>
+      <find>OP_SUCCESS</find>
+      <find>trend_line_lasso</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/assets" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/ora_dual/tasks/__init__.py" />
+        <option value="$PROJECT_DIR$/oracle_predict/__init__.py" />
+        <option value="$PROJECT_DIR$/ora_dual/periodic_tasks.py" />
+        <option value="$PROJECT_DIR$/static/commons.js" />
+        <option value="$PROJECT_DIR$/oracle_predict/celery.py" />
+        <option value="$PROJECT_DIR$/ora_dual/celery.py" />
+        <option value="$PROJECT_DIR$/oracle_predict/urls.py" />
+        <option value="$PROJECT_DIR$/templates/pyecharts.py" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/templates/pyecharts.html" />
+        <option value="$PROJECT_DIR$/templates/welcome.html" />
+        <option value="$PROJECT_DIR$/templates/display_result.html" />
+        <option value="$PROJECT_DIR$/templates/choice_snap_metric.html" />
+        <option value="$PROJECT_DIR$/ora_dual/display_charts.py" />
+        <option value="$PROJECT_DIR$/static/dynamic_oracle_metric.sql" />
+        <option value="$PROJECT_DIR$/templates/display_iops_thu.html" />
+        <option value="$PROJECT_DIR$/ora_dual/database_method.py" />
+        <option value="$PROJECT_DIR$/ora_dual/iops_thu_data.py" />
+        <option value="$PROJECT_DIR$/oracle_predict/settings.py" />
+        <option value="$PROJECT_DIR$/load_profile_28_01_2019.csv" />
+        <option value="$PROJECT_DIR$/spacechange_metric_31_01_2019.csv" />
+        <option value="$PROJECT_DIR$/analyze/Factor_Analyze.py" />
+        <option value="$PROJECT_DIR$/metric_process/urls.py" />
+        <option value="$PROJECT_DIR$/analyze/preprocessing.py" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/ora_dual/models.py" />
+        <option value="$PROJECT_DIR$/fetch_knob_metric/fetch_mysql_knob_data.py" />
+        <option value="$PROJECT_DIR$/fetch_knob_metric/fetch_mysql_metric_data.py" />
+        <option value="$PROJECT_DIR$/ora_dual/tasks.py" />
+        <option value="$PROJECT_DIR$/fetch_knob_metric/upload_oracle_knobcatalog.py" />
+        <option value="$PROJECT_DIR$/fetch_knob_metric/upload_oracle_metriccatalog.py" />
+        <option value="$PROJECT_DIR$/fetch_knob_metric/oracle_setting.py" />
+        <option value="$PROJECT_DIR$/fetch_knob_metric/fetch_oracle_knob_data.py" />
+        <option value="$PROJECT_DIR$/fetch_knob_metric/fetch_oracle_metric_data.py" />
+        <option value="$PROJECT_DIR$/app/dao/db_common/database.py" />
+        <option value="$PROJECT_DIR$/ora_dual/urls.py" />
+        <option value="$PROJECT_DIR$/templates/node_modules/gentelella/production/home.html" />
+        <option value="$PROJECT_DIR$/time_series_detector/detect.py" />
+        <option value="$PROJECT_DIR$/app/service/time_series_detector/sample_service.py" />
+        <option value="$PROJECT_DIR$/app/dao/time_series_detector/sample_op.py" />
+        <option value="$PROJECT_DIR$/app/common/common.py" />
+        <option value="$PROJECT_DIR$/time_series_detector/test.py" />
+        <option value="$PROJECT_DIR$/ora_dual/views.py" />
+        <option value="$PROJECT_DIR$/templates/node_modules/gentelella/production/fetch_metric_data_ok.html" />
+        <option value="$PROJECT_DIR$/templates/node_modules/gentelella/production/display_metric_detail.html" />
+        <option value="$PROJECT_DIR$/templates/node_modules/gentelella/production/sel_metric_data.html" />
+        <option value="$PROJECT_DIR$/templates/node_modules/gentelella/production/info.html" />
+        <option value="$PROJECT_DIR$/templates/spacechange_trend.html" />
+        <option value="$PROJECT_DIR$/metric_process/space_predict_122.py" />
+        <option value="$PROJECT_DIR$/templates/node_modules/gentelella/production/spacechange_trend.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/static/assets/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/accepts/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/after/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/align-text/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/align-text/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/ansi-gray/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/ansi-wrap/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/anymatch/node_modules/micromatch/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/anymatch/node_modules/normalize-path/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/anymatch/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/archy/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/arr-diff/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/arr-flatten/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/arr-union/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/array-differ/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/array-each/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/array-slice/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/array-uniq/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/array-unique/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/arraybuffer.slice/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/assign-symbols/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/async-each-series/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/async-each/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/async-limiter/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/atob/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/autoprefixer/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/axios/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/backo2/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/base/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/base/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/base/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/base/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/base/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/base64-arraybuffer/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/base64id/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/batch/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/beeper/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/better-assert/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/binary-extensions/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/blob/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/braces/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/braces/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/browser-sync-client/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/browser-sync-ui/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/browser-sync/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/browserslist/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/bs-recipes/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/bs-recipes/recipes/grunt.html.injection/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/bs-recipes/recipes/grunt.sass.autoprefixer/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/bs-recipes/recipes/grunt.sass/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/bs-recipes/recipes/gulp.browserify/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/bs-recipes/recipes/gulp.pug/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/bs-recipes/recipes/gulp.ruby.sass/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/bs-recipes/recipes/gulp.sass/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/bs-recipes/recipes/gulp.swig/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/bs-recipes/recipes/gulp.task.sequence/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/bs-recipes/recipes/html.injection/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/bs-recipes/recipes/middleware.css.injection/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/bs-recipes/recipes/proxy.custom-css/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/bs-recipes/recipes/server.gzipped.assets/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/bs-recipes/recipes/server.includes/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/bs-recipes/recipes/server.middleware/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/bs-recipes/recipes/server/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/bs-recipes/recipes/webpack.babel/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/bs-recipes/recipes/webpack.monkey-hot-loader/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/bs-recipes/recipes/webpack.preact-hot-loader/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/bs-recipes/recipes/webpack.react-hot-loader/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/bs-recipes/recipes/webpack.react-transform-hmr/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/bs-recipes/recipes/webpack.typescript.react/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/bs-recipes/recipes/webpack.typescript/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/bs-snippet-injector/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/bytes/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/cache-base/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/callsite/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/caniuse-db/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/center-align/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/chokidar/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/class-utils/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/class-utils/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/cliui/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/clone-buffer/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/clone-stats/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/clone/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/cloneable-readable/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/code-point-at/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/collection-visit/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/color-support/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/commander/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/component-bind/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/component-emitter/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/component-inherit/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/concat-with-sourcemaps/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/concat-with-sourcemaps/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/connect-history-api-fallback/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/connect/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/connect/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/convert-source-map/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/cookie/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/copy-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/cross-spawn/node_modules/lru-cache/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/cross-spawn/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/dargs/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/dateformat/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/deap/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/decamelize/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/decode-uri-component/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/defaults/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/define-property/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/define-property/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/define-property/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/depd/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/deprecated/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/destroy/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/detect-file/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/dev-ip/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/duplexer2/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/duplexer2/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/duplexer2/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/duplexer2/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/each-async/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/easy-extender/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/eazy-logger/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/ee-first/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/electron-to-chromium/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/encodeurl/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/end-of-stream/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/engine.io-client/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/engine.io-parser/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/engine.io/node_modules/ws/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/engine.io/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/error-ex/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/escape-html/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/etag/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/eventemitter3/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/expand-brackets/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/expand-brackets/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/expand-brackets/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/expand-brackets/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/expand-range/node_modules/fill-range/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/expand-range/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/expand-range/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/expand-range/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/expand-range/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/expand-range/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/expand-tilde/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/extend-shallow/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/extend/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/extglob/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/extglob/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/extglob/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/extglob/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/extglob/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/extglob/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fancy-log/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/filename-regex/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fill-range/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fill-range/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/finalhandler/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/finalhandler/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/find-index/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/find-up/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/findup-sync/node_modules/is-glob/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/findup-sync/node_modules/micromatch/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/findup-sync/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fined/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/first-chunk-stream/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/flagged-respawn/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/follow-redirects/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/follow-redirects/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/follow-redirects/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/for-in/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/for-own/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fragment-cache/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fresh/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fs-extra/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/abbrev/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/aproba/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/are-we-there-yet/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/chownr/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/code-point-at/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/console-control-strings/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/deep-extend/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/delegates/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/detect-libc/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/fs-minipass/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/gauge/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/has-unicode/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/ignore-walk/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/ini/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/minipass/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/minizlib/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/needle/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/node-pre-gyp/lib/util/nw-pre-gyp/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/node-pre-gyp/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/npm-bundled/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/npm-packlist/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/npmlog/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/number-is-nan/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/os-homedir/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/os-tmpdir/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/osenv/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/rc/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/rc/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/sax/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/set-blocking/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/signal-exit/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/strip-json-comments/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/tar/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/wide-align/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/node_modules/yallist/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/fsevents/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/gaze/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/get-caller-file/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/get-value/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/glob-base/node_modules/glob-parent/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/glob-base/node_modules/is-extglob/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/glob-base/node_modules/is-glob/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/glob-base/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/glob-parent/node_modules/is-glob/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/glob-parent/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/glob-stream/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/glob-stream/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/glob-stream/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/glob-stream/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/glob-stream/node_modules/through2/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/glob-stream/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/glob-watcher/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/glob/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/glob2base/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/global-modules/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/global-prefix/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/globule/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/globule/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/globule/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/globule/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/globule/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/globule/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/glogg/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/gulp-autoprefixer/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/gulp-concat/node_modules/clone-stats/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/gulp-concat/node_modules/clone/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/gulp-concat/node_modules/replace-ext/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/gulp-concat/node_modules/vinyl/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/gulp-concat/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/gulp-rename/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/gulp-ruby-sass/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/gulp-ruby-sass/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/gulp-ruby-sass/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/gulp-uglify/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/gulp-uglify/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/gulp-uglify/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/gulp-util/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/gulp/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/gulp/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/gulplog/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/has-ansi/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/has-binary2/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/has-cors/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/has-flag/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/has-gulplog/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/has-value/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/has-values/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/has-values/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/homedir-polyfill/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/hosted-git-info/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/http-errors/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/http-proxy/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/immutable/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/indexof/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/ini/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/interpret/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/invert-kv/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-accessor-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-arrayish/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-binary-path/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-buffer/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-data-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-dotfile/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-equal-shallow/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-extglob/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-glob/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-number-like/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-number/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-plain-object/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-posix-bracket/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-primitive/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-relative/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-unc-path/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-utf8/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-windows/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/is-wsl/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/isexe/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/js-base64/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/jsonfile/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/lazy-cache/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/lcid/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/liftoff/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/limiter/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/load-json-file/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/localtunnel/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/localtunnel/node_modules/yargs/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/localtunnel/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/lodash._basecopy/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/lodash._basetostring/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/lodash._basevalues/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/lodash._getnative/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/lodash._isiterateecall/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/lodash._reescape/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/lodash._reevaluate/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/lodash._reinterpolate/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/lodash._root/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/lodash.escape/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/lodash.isarguments/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/lodash.isarray/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/lodash.isfinite/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/lodash.keys/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/lodash.restparam/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/lodash.template/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/lodash.templatesettings/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/longest/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/lru-cache/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/make-iterator/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/map-cache/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/map-visit/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/math-random/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/md5-hex/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/md5-o-matic/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/micromatch/node_modules/arr-diff/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/micromatch/node_modules/array-unique/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/micromatch/node_modules/braces/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/micromatch/node_modules/expand-brackets/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/micromatch/node_modules/extglob/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/micromatch/node_modules/is-extglob/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/micromatch/node_modules/is-glob/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/micromatch/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/micromatch/node_modules/normalize-path/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/micromatch/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/mitt/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/mixin-deep/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/mixin-deep/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/mkdirp/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/multipipe/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/nan/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/nan/tools/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/nanomatch/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/natives/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/negotiator/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/normalize-package-data/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/normalize-path/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/normalize-range/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/num2fraction/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/number-is-nan/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/object-component/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/object-copy/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/object-copy/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/object-copy/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/object-path/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/object-visit/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/object.defaults/node_modules/for-own/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/object.defaults/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/object.map/node_modules/for-own/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/object.map/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/object.omit/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/object.pick/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/on-finished/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/onetime/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/openurl/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/opn/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/orchestrator/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/ordered-read-streams/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/os-homedir/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/os-locale/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/os-tmpdir/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/parse-filepath/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/parse-glob/node_modules/is-extglob/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/parse-glob/node_modules/is-glob/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/parse-glob/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/parse-json/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/parse-node-version/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/parse-passwd/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/parseqs/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/parseuri/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/parseurl/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/pascalcase/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/path-dirname/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/path-exists/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/path-parse/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/path-root-regex/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/path-root/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/path-type/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/pinkie-promise/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/pinkie/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/portscanner/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/posix-character-classes/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/postcss-value-parser/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/postcss/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/postcss/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/preserve/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/pretty-hrtime/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/pseudomap/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/randomatic/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/randomatic/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/range-parser/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/raw-body/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/read-pkg-up/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/read-pkg/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/readable-stream/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/readdirp/node_modules/micromatch/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/readdirp/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/rechoir/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/regex-cache/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/regex-not/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/remove-trailing-separator/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/repeat-element/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/repeat-string/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/replace-ext/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/require-directory/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/require-main-filename/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/requires-port/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/resolve-dir/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/resolve-url/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/resolve/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/resolve/test/resolver/baz/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/resolve/test/resolver/browser_field/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/resolve/test/resolver/dot_main/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/resolve/test/resolver/dot_slash_main/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/resolve/test/resolver/incorrect_main/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/resolve/test/resolver/invalid_main/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/resolve/test/resolver/multirepo/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/resolve/test/resolver/multirepo/packages/package-a/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/resolve/test/resolver/multirepo/packages/package-b/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/resp-modifier/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/resp-modifier/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/ret/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/right-align/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/rimraf/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/rx/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/rxjs/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/safe-regex/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/send/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/send/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/send/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/sequencify/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/serve-index/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/serve-index/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/serve-static/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/server-destroy/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/set-blocking/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/set-immediate-shim/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/set-value/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/set-value/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/shebang-command/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/shebang-regex/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/sigmund/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/snapdragon-node/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/snapdragon-node/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/snapdragon-node/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/snapdragon-node/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/snapdragon-node/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/snapdragon-util/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/snapdragon-util/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/snapdragon/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/snapdragon/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/snapdragon/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/snapdragon/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/socket.io-adapter/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/socket.io-client/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/socket.io-parser/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/socket.io/node_modules/engine.io-client/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/socket.io/node_modules/socket.io-client/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/socket.io/node_modules/socket.io-parser/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/socket.io/node_modules/ws/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/socket.io/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/source-map-resolve/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/source-map-url/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/sparkles/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/spdx-correct/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/spdx-exceptions/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/spdx-expression-parse/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/spdx-license-ids/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/split-string/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/static-extend/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/static-extend/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/stream-consume/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/stream-throttle/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/strip-bom/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/symbol-observable/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/tfunk/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/through2/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/tildify/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/time-stamp/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/to-array/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/to-object-path/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/to-object-path/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/to-regex-range/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/to-regex/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/ua-parser-js/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/uglify-js/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/uglify-js/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/uglify-js/node_modules/cliui/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/uglify-js/node_modules/window-size/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/uglify-js/node_modules/yargs/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/uglify-js/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/uglify-save-license/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/uglify-to-browserify/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/ultron/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/unc-path-regex/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/union-value/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/union-value/node_modules/set-value/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/union-value/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/unique-stream/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/universalify/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/unpipe/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/unset-value/node_modules/has-value/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/unset-value/node_modules/has-value/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/unset-value/node_modules/has-values/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/unset-value/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/unset-value/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/upath/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/urix/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/use/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/user-home/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/utils-merge/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/v8flags/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/validate-npm-package-license/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/vinyl-fs/node_modules/clone/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/vinyl-fs/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/vinyl-fs/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/vinyl-fs/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/vinyl-fs/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/vinyl-fs/node_modules/strip-bom/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/vinyl-fs/node_modules/through2/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/vinyl-fs/node_modules/vinyl/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/vinyl-fs/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/vinyl-sourcemaps-apply/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/vinyl/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/which-module/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/which/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/window-size/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/wordwrap/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/wrap-ansi/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/ws/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/xmlhttprequest-ssl/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/xtend/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/y18n/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/yallist/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/yargs-parser/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/yargs/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/node_modules/yeast/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/vendors/Chart.js/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/vendors/DateJS/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/vendors/Flot/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/vendors/animate.css/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/vendors/bootstrap-daterangepicker/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/vendors/bootstrap-datetimepicker/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/vendors/bootstrap-progressbar/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/vendors/bootstrap-wysiwyg/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/vendors/cropper/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/vendors/echarts/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/vendors/eve/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/vendors/flot-spline/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/vendors/ion.rangeSlider/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/vendors/jquery-knob/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/vendors/jquery.easy-pie-chart/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/vendors/jqvmap/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/vendors/jszip/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/vendors/morris.js/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/vendors/starrr/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/vendors/switchery/package.json" />
+      <path value="$PROJECT_DIR$/templates/node_modules/gentelella/vendors/transitionize/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="720" />
+    <option name="y" value="23" />
+    <option name="width" value="720" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="oracle_predict" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oracle_predict" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oracle_predict" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oracle_predict" type="462c0819:PsiDirectoryNode" />
+              <item name="metric_process" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oracle_predict" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oracle_predict" type="462c0819:PsiDirectoryNode" />
+              <item name="ora_dual" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oracle_predict" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oracle_predict" type="462c0819:PsiDirectoryNode" />
+              <item name="oracle_predict" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/jiangt/oracle_predict/templates/spacechange_trend.html" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.jest.jest_package" value="" />
+    <property name="nodejs.protractor.protractor_package" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ora_dual" />
+      <recent name="C:\Edwin\pyproject\oracle_predict\oracle_predict" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="space_predict_122" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="oracle_predict" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/metric_process" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/metric_process/space_predict_122.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="oracle_predict" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/time_series_detector" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/time_series_detector/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="oracle_predict" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ora_dual" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ora_dual/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="oracle_predict" type="Python.DjangoServer" factoryName="Django server">
+      <module name="oracle_predict" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="oracle_predict.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\jiang\AppData\Local\Continuum\anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="127.0.0.1" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.oracle_predict" />
+      <item itemvalue="Python.space_predict_122" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.views" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.views" />
+        <item itemvalue="Python.space_predict_122" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e68bfd7-a392-4653-b320-731f2f954ce7" name="Default Changelist" comment="" />
+      <created>1547113352962</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547113352962</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1539394" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.16363636" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22889842" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3297568" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.3297568" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.25575757" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/oracle_predict/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fetch_knob_metric/mysql_database.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ora_dual/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="221" column="37" selection-start-line="221" selection-start-column="37" selection-end-line="221" selection-end-column="37" />
+          <folding>
+            <element signature="e#135#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fetch_knob_metric/JSONUtile.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fetch_knob_metric/upload_batch_mysql_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-199" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fetch_knob_metric/upload_oracle_metriccatalog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fetch_knob_metric/oracle_setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fetch_knob_metric/upload_oracle_knobcatalog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fetch_knob_metric/fetch_oracle_knob_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fetch_knob_metric/fetch_mysql_knob_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time_series_detector/feature/classification_features.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-655">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="e#727#745#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time_series_detector/algorithm/xgboosting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-877">
+          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time_series_detector/common/tsd_common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1063">
+          <caret line="92" column="51" selection-start-line="92" selection-start-column="51" selection-end-line="92" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dao/time_series_detector/anomaly_op.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#727#741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/spacechange_metric_05_04_2019.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/celery_worker.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time_series_detector/detect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="796">
+          <caret line="101" column="20" lean-forward="true" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
+          <folding>
+            <element signature="e#727#736#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ora_dual/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="31" column="63" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sql/time_series_detector/anomaly.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sql/time_series_detector/sample_dataset.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2188">
+          <caret line="102" column="2059" selection-start-line="102" selection-start-column="2052" selection-end-line="102" selection-end-column="2059" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/service/time_series_detector/detect_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="871">
+          <caret line="118" column="28" lean-forward="true" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fetch_knob_metric/fetch_oracle_metric_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="58" column="56" lean-forward="true" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fetch_knob_metric/fetch_mysql_metric_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/service/time_series_detector/task_service.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dao/db_common/database.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/common/errorcode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/common/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="e#727#743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/service/time_series_detector/sample_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="87" column="53" selection-start-line="87" selection-start-column="53" selection-end-line="87" selection-end-column="53" />
+          <folding>
+            <element signature="e#727#738#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dao/time_series_detector/sample_op.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="175" column="23" lean-forward="true" selection-start-line="175" selection-start-column="23" selection-end-line="175" selection-end-column="23" />
+          <folding>
+            <element signature="e#727#742#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time_series_detector/spacechange_metric_05_04_2019.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/time_series_detector/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="51" column="3" lean-forward="true" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
+          <folding>
+            <element signature="e#119#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/node_modules/gentelella/production/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16919" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/node_modules/gentelella/production/fetch_metric_data_ok.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/node_modules/gentelella/production/display_metric_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/node_modules/gentelella/production/sel_metric_data.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metric_process/visuals.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metric_process/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/node_modules/gentelella/production/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="64" column="18" lean-forward="true" selection-start-line="64" selection-start-column="18" selection-end-line="80" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/node_modules/gentelella/production/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metric_process/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metric_process/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="72" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="72" />
+          <folding>
+            <element signature="e#134#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/spacechange_trend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/node_modules/gentelella/production/spacechange_trend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="122" column="14" lean-forward="true" selection-start-line="122" selection-start-column="14" selection-end-line="122" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ora_dual/collect_metric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="e#144#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ora_dual/collect_io_metric.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ora_dual/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1147">
+          <caret line="540" column="5" lean-forward="true" selection-start-line="540" selection-start-column="5" selection-end-line="540" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/metric_process/space_predict_122.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-938">
+          <caret line="455" column="58" lean-forward="true" selection-start-line="455" selection-start-column="58" selection-end-line="455" selection-end-column="58" />
+          <folding>
+            <element signature="e#147#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ora_dual/iops_thu_data.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ora_dual/periodic_tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ora_dual/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="78" column="12" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

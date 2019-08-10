@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Load Profile Per Hour</title>
+    <link rel="stylesheet" href ="/static/bootstrap.css">
+    <script src="/static/jquery-3.3.1.js"></script>
+    {% for jsfile_name in script_list %}
+    <script src="{{host}}/{{jsfile_name}}.js"></script>
+    {% endfor %}
+<body>
+<div style="margin: 20px 300px">
+    <h3>系统负载数据快照日期</h3>
+
+<table class="table table-bordered table-hover table-striped table-condensed">
+    <tr>
+        <td>快照时间</td>
+        <td>操作</td>
+    </tr>
+    {% for i in snap_date %}
+        <td>{{ i.snap_date }}</td>
+        <td>
+        <a target="_blank" href = "/ora_dual/load_profile_trend/?snapdate={{ i.snap_date|date:"Y-m-d" }}">
+            <button class="btn btn-default">
+                <span class="glyphicon glyphicon-hand-left"></span>
+                展示</button>
+        </a>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+</div>
+</body>
+</html>

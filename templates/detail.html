@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href ="/static/bootstrap.min.css">
+</head>
+<body>
+<div style="margin: 20px 300px">
+    <h3>user detail info</h3>
+
+<table class="table table-bordered table-hover">
+    <tr>
+
+        <td>username</td>
+        <td>age</td>
+        <td>gender</td>
+    </tr>
+    {% for i in user_info %}
+    <tr>
+        <td>{{ i.username }}</td>
+        <td>{{ i.age }}</td>
+        <td>{{ i.gender }}</td>
+    </tr>
+    {% endfor %}
+</table>
+</div>
+</body>
+</html>

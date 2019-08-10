@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href ="/static/bootstrap.css">
+    <link rel="stylesheet" href ="/static/bootstrap.js">
+    <script src="/static/jquery-3.3.1.js"></script>
+    {% for jsfile_name in script_list %}
+    <script src="{{host}}/{{jsfile_name}}.js"></script>
+    {% endfor %}
+</head>
+<body>
+<div style="margin: 20px 300px">
+{% if msg == '' %}
+<h3>实时实例状态</h3>
+<table class="table table-bordered table-hover table-striped table-condensed">
+<tr>
+    {% for ind in inst_title %}
+    <td>{{ ind }}</td>
+    {% endfor %}
+</tr>
+    {% for item in instance_status_data %}
+    <tr>
+        <td>{{ item.INSTANCE_NAME }}</td>
+    <td>{{ item.STATUS }}</td>
+    <td>{{ item.STARTUP_TIME }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+    <h3>实时IOPS、吞吐量数据</h3>
+
+<table class="table table-bordered table-hover table-striped table-condensed">
+<tr>
+    {% for ind in iops_title %}
+    <td>{{ ind }}</td>
+    {% endfor %}
+</tr>
+    {% for item in iops_tho_data %}
+    <tr>
+        <td>{{ item.Time_Delta }}</td>
+    <td>{{ item.Metric }}</td>
+    <td>{{ item.Total   }}</td>
+
+    </tr>
+    {% endfor %}
+
+</table>
+{% else %}
+    <h3>实时实例状态</h3>
+{{ sid }} {{ msg }}
+{% endif %}
+</div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Title</title>
+    <link rel="stylesheet" href ="/static/bootstrap.min.css">
+    <script src="/static/jquery-3.3.1.js"></script>
+    <script src="/static/bootstrap.min.js"></script>
+    <style>
+        .container{
+            background: #0062cc;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div class="table-responsive form-group has-success">
+    <h3>user management</h3>
+    <form action="/ora_dual/home/" method="post">
+        <input type="text" name = "username" placeholder="用户名">
+        <input type="text" name = "age" placeholder="年龄">
+        <input type="text" name = "gender" placeholder="性别">
+        <input type="text" name="group" placeholder="组别">
+        <input type="submit" value="添加">
+    </form>
+    </div>
+<table class="table table-bordered table-hover table-striped table-condensed">
+    <tr>
+        <td class="bg-success">id</td>
+        <td class="text-primary bg-success">username</td>
+        <td>age</td>
+        <td>gender</td>
+        <td>group</td>
+        <td>操作</td>
+    </tr>
+    {% for i in userlist %}
+        <td><a target = "_blank" href="/ora_dual/detail/?nid={{ i.id }}">{{ i.id }}</a></td>
+        <td>{{ i.username }}</td>
+        <td>{{ i.age }}</td>
+        <td>{{ i.gender }}</td>
+        <td>{{ i.usergroup.caption }}</td>
+        <td>
+        <a target="_blank" href = "/ora_dual/delete/?nid={{ i.id }}">
+            <button class="btn btn-danger btn-sm">Delete</button>
+        </a>
+            <button class="btn btn-primary btn-sm">Update</button> </td>
+    </tr>
+    {% endfor %}
+</table>
+
+</div>
+</body>
+</html>
